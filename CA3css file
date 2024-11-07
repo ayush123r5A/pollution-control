@@ -1,0 +1,72 @@
+body {
+    background-color: #e0f7e9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #66bb6a;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Specific Div Styling for Pollution Types */
+.div1, .div2, .div3, .div4 {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.div1 {
+    background-color: #ffebee;
+}
+
+.div2 {
+    background-color: #e3f2fd;
+}
+
+.div3 {
+    background-color: #f9fbe7;
+}
+
+.div4 {
+    background-color: #fff3e0;
+}
+
+/* Contact and Login/Signup Sections */
+#contact, #login, #signup {
+    background-color: #d7ccc8;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+form label, form input, form button {
+    margin-bottom: 10px;
+}
