@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pollution Control</title>
+    <link rel="stylesheet" href="ush.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Pollution Control </h1>
+        <nav>
+            <a href="#about">About </a>
+            <a href="#contact">Contact Us</a>
+            <a href="#login">Login</a>
+            <br><br><br>
+            <a href="https://moef.gov.in/pollution" target="_blank">Learn more about Pollution Control</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About </h2>
+        <p>We are a dedicated organization working to combat the different forms of pollution that threaten our environment and health. Our mission is to educate, raise awareness, and inspire individuals and communities to take action against pollution. Through research, advocacy, and community involvement, we aim to create a cleaner and healthier planet for future generations.</p>
+        <p>We focus on understanding the impact of pollution on ecosystems and human health, developing strategies to reduce it, and encouraging sustainable practices worldwide. Join us in our journey towards a pollution-free world by learning more and taking small, impactful steps towards a better future.</p>
+    </section>
+
+    <!-- Pollution Types -->
+    <section id="pollution-types">
+        <div class="div1">
+            <h3>Air Pollution</h3>
+            <p>Air pollution occurs when harmful substances like carbon monoxide, sulfur dioxide, and nitrogen oxides are released into the atmosphere. These pollutants come from vehicle emissions, industrial processes, burning fossil fuels, and other sources. Long-term exposure to polluted air can lead to respiratory illnesses, cardiovascular diseases, and even impact the nervous system.</p>
+            <p>Efforts to reduce air pollution include adopting cleaner fuels, improving public transportation, using renewable energy sources, and implementing stricter emission regulations. Each of us can contribute by reducing car usage, conserving energy, and supporting eco-friendly practices.</p>
+            <img src="th.jpg">
+            <br><br> <a href="https://en.wikipedia.org/wiki/Air_pollution" target="_blank">Learn more about air pollution</a>
+           <br><br> <a href="https://www.aqi.in/dashboard/india" target="_blank">Air quality index in diffrent state</a>
+         </div>
+
+        <div class="div2">
+            <h3>Water Pollution</h3>
+            <p>Water pollution is caused by contaminants such as chemicals, plastics, and waste entering rivers, lakes, and oceans. These pollutants come from agricultural runoff, industrial waste, untreated sewage, and plastic disposal, endangering aquatic life and impacting human health when the contaminated water is used.</p>
+            <p>Preventing water pollution involves proper waste disposal, reducing plastic usage, and supporting water treatment systems. Educating communities on the dangers of dumping waste and using eco-friendly products are effective steps towards cleaner water bodies.</p>
+            <img src="the.jpg">
+            <br><br> <a href="https://en.wikipedia.org/wiki/Water_pollution" target="_blank">Learn more about water pollution</a>
+        <br><br><a href="https://www.downtoearth.org.in/water/see-how-indian-states-fared-on-the-water-index-60868" target="_blank">Water quality index in diffrent state</a>
+</div>
+
+        <div class="div3">
+            <h3>Soil Pollution</h3>
+            <p>Soil pollution results from the introduction of harmful chemicals and waste into the ground. These pollutants, including pesticides, heavy metals, and industrial waste, degrade the quality of soil, affecting crop health and biodiversity. Soil pollution can lead to reduced agricultural productivity and harm local ecosystems.</p>
+            <p>Controlling soil pollution involves reducing the use of harmful pesticides, managing industrial waste, recycling, and promoting sustainable agricultural practices. By using organic farming methods and waste reduction, we can help preserve our soil quality.</p>
+            <img src="then.jpg">
+            <br><br> <a href="https://en.wikipedia.org/wiki/Soil_contamination" target="_blank">Learn more about soil pollution</a>
+            <br><br><a href="https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2022.865473/full" target="_blank">soil quality index in diffrent state</a>
+        </div>
+
+        <div class="div4">
+            <h3>Noise Pollution</h3>
+            <p>Noise pollution is the excessive and disturbing noise from sources like traffic, construction sites, and industrial activities. Prolonged exposure to high noise levels can lead to hearing loss, stress, sleep disturbances, and other health issues.</p>
+            <p>To reduce noise pollution, sound barriers, and green buffers around noisy areas, using quieter machinery, and enforcing noise regulations in residential areas are effective. Individuals can contribute by keeping noise levels down, particularly in densely populated areas.</p>
+            <img src="theni.jpg">
+            <br><br> <a href="https://en.wikipedia.org/wiki/Noise_pollution" target="_blank">Learn more about noise pollution</a>
+<br><br>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you would like to reach out to us, please email us at <br><br>ayushgahlawat9932@gmail.com</a> <br>Phone number:999-111-4257<br><br>We are here to answer your questions, provide information, and guide you in joining efforts against pollution.</p>
+    </section>
+
+    <!-- Login and Sign Up Section -->
+    <section id="login">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="signup">
+        <h2>Sign Up</h2>
+        <form>
+            <label for="new-username">Username: </label>
+            <input type="text" id="new-username" name="new-username">
+            <br>
+            <label for="new-password">Password:</label>
+            <input type="password" id="new-password" name="new-password">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+</body>
+</html>
